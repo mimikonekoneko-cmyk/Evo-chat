@@ -70,8 +70,7 @@ def get_context(user: User) -> Dict[str, Any]:
     return {
         "long_term_memories": formatted_memories,
         "time_context": formatted_time_context,
-        "chat_history": chat_history
-    }
+        "chat_history": chat_history,
         "long_term_memories": formatted_memories,
         "time_context": formatted_time_context,
         "chat_history": chat_history
